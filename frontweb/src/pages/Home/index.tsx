@@ -1,5 +1,7 @@
 import {ReactComponent as MainImage} from 'assets/images/mainImage.svg'
+import ButtonIcon from 'components/ButtonIcon'
 import Navbar from "components/Navbar"
+import './styles.css'
 
 const Home = () => {
     return(
@@ -8,7 +10,9 @@ const Home = () => {
 <div className="home-container">
     <div className="home-card">
         <div className="home-content-container">
-            <h1>Conheça o melhor catalogo de Produtos</h1>
+            <h1>Conheça o melhor catálogo de produtos</h1>
+            <p>Ajudaremos você a encontrar os melhores produtos disponíveis no mercado.</p>
+            <ButtonIcon />
         </div>
         <div className="home-image-container">
             <MainImage />
